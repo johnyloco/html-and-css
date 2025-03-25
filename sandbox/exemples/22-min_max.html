@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Acceuil </title>
+        <link rel="icon" type="image/x-icon" href="../img/Sandbox-icon.jpg"/>
+        <!-- Mes balises meta a completer -->
+        <meta name="author" content="Aleks"/>
+        <link rel="stylesheet" type="text/css" href="../css/default.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/global.css"/>
+        <style>
+            .main {width: 50%;}
+            .rouge {
+                background-color: red;
+            }
+            .bleu {
+                background-color: blue;
+            }
+            .vert {
+                background-color: green;
+            }
+            .contenu {min-width: 300px; max-width: 600px;}
+            .bordure {border: 5px solid black;}
+            .padding {padding: 10px;}
+            .box {box-sizing: border-box;} /* borderbox doesnt incluid the padding  */
+            .height {height: 15vh;min-height: 100px;max-height: 150px;} /* 100vh = 100% of the viewport height */
+
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="contenu rouge"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+            <div class="contenu bleu"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+            <div class="contenu vert"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+        </div>
+
+        <div class="main"> 
+            <div class="contenu bordure padding"> Lorem ipsum dolor sit amet consectetur adipisicing elit.    
+            </div> <!-- for max width 600 + 2x5px + 10px(thats why is bigger) -->
+
+            <div class="contenu bordure padding box"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </div> <!-- stays the same size -->
+        </div>
+
+        <div class="main">
+            <div class="contenu rouge height"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+            <div class="contenu bleu height"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+            <div class="contenu vert height"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+        </div>
+    </body>    
+
+</html>

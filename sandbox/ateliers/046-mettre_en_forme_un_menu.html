@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Mettre en forme un </title>
+        <link rel="icon" type="image/x-icon" href="../img/Sandbox-icon.jpg"/>
+        <!-- Mes balises meta a completer -->
+        <meta name="author" content="Aleks"/>
+        <link rel="stylesheet" type="text/css" href="../css/default.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/global.css"/>
+        <style>
+            #menu {
+                font-family: cursive; font-size: 2em;
+                background-color: aquamarine;
+                width: 80%; margin: 0 auto;
+                border: 5px double red;
+                min-width: 180px;
+            }
+            .nav{
+                display: inline-block;
+                width: calc(100% / 5); 
+                padding: 10px; box-sizing: border-box;
+                text-align: center;
+                min-width: 180px; 
+                /* Minimal size of each box and keeping the text with space together */
+                border: 10px rgba(255, 255, 255, 0) solid;
+                /* Transparent border to keep the space between boxes and not changing the whole nav*/
+            }
+            .nav:hover{
+                font-weight: bold;
+                border: 10px rgba(255, 255, 255, 1) solid;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <header id="menu">         
+                <div class ="nav" >Menu 1</div><!--
+                --><div class ="nav" >Menu 2</div><!--
+                --><div class ="nav" >Menu 3</div><!--
+                --><div class ="nav" >Menu 4</div><!--
+                --><div class ="nav" >Menu 5</div>
+            
+        </header>
+    </body>    
+
+</html>

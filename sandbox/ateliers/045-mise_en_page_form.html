@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Mise en page form </title>
+        <link rel="icon" type="image/x-icon" href="../img/Sandbox-icon.jpg"/>
+        <!-- Mes balises meta a completer -->
+        <meta name="author" content="Aleks"/>
+        <link rel="stylesheet" type="text/css" href="../css/default.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/global.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/20-mise_en_page_form.css"/>
+        <style>
+            .tete {
+                border: 10px red double;
+                font-family: "Brush Script MT", cursive;
+                font-size: 2em;
+                color: darkcyan;
+                width: 300px; margin: auto;
+                padding: 1em;
+                text-align: center;
+            }
+
+            .corps {
+                border: darkblue 1px solid;
+                margin: 40px 20px;
+                padding: 10px;
+                
+            }
+
+            #boxhead {
+                font-size: 1.2em;
+                border-bottom: darkblue 1px solid;
+                border-left: darkblue 1px solid;
+                border-bottom-left-radius: 10px;
+                padding-left: 10px; padding-bottom: 5px;
+                margin-top: 10px;
+            }
+
+            .pied {
+                padding-left: 50px;
+                font-size: 0.8em;
+                color: rgba(0, 0, 0, 0.5);  /* noir à 50%  transparent */
+            } 
+
+            .pied:hover {
+                color: rgba(0, 0, 0, 1);  /* noir à 0%  transparent */
+                font-size: 1em;
+            }
+
+            mark{background-color: greenyellow;}
+
+            .gras_rouge{
+                font-weight: bold;
+                color: red;
+            }
+
+            .italic_vert{
+                font-style: italic;
+                color: green;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="tete"> 
+            Bienvenue dans votre atelier.
+        </div>
+
+        <div class="corps"> 
+            
+                <div id="boxhead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+                    <p>Lorem ipsum dolor sit amet consectetur <mark>adipisicing elit</mark>. 
+                        Ea, maiores totam <span class="italic_vert"> exercitationem inventore </span>vel aspernatur, tempore pariatur aliquam nisi earum nihil 
+                        cumque rerum quas recusandae corporis, velit error eos ipsa.
+                    </p>
+ 
+                <div id="boxhead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+                    <p>Lorem ipsum dolor sit amet consectetur <mark>adipisicing elit</mark>. 
+                        Ea, maiores <span class="gras_rouge"> totam exercitationem</span> inventore vel aspernatur, tempore pariatur aliquam nisi earum nihil 
+                        cumque rerum quas recusandae corporis, velit error eos ipsa.
+                    </p>
+
+                <div id="boxhead"> <span class="italic_vert"> Lorem ipsum </span> sit amet consectetur adipisicing elit. </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ea, maiores totam <span class="gras_rouge">exercitationem inventore </span>vel aspernatur, tempore pariatur aliquam nisi earum nihil 
+                        cumque rerum quas recusandae corporis, velit error eos ipsa.
+                    </p>
+
+        </div>
+        
+
+        <div class="pied"> 
+            Author: Aleks Popov avec un effect de survol.
+        </div>
+    </body>    
+
+</html>
