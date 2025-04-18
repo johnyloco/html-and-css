@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Coups de coeur </title>
+        <link rel="icon" type="image/x-icon" href="../img/favicon.png"/>
+        <!-- Mes balises meta a completer -->
+        <meta name="author" content="Aleks"/>
+        <link rel="stylesheet" type="text/css" href="../css/global.css"/>
+        <style>
+
+            h3{
+                text-align: left;
+                margin-left: 50px;
+            }
+            .clasiques, .lesromans{
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                margin-bottom: 50px;  
+                text-align: left;
+            }
+            .clasiques #boxhead, .lesromans #boxhead{
+                border: 1px solid #aa3322;
+                background-color: #ededed;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 10px;
+                width: calc(100% /3);
+            }
+            .titre_oeuvre{
+                font-weight: bold;
+                font-size: 16px;
+                color: #aa3322;
+            }
+            #boxhead b{
+                display: inline-block;
+                text-align: left;
+            }
+            .links_inside a{
+                text-align: center;
+                margin-bottom: 20px;
+                color: #aa3322;
+                font-size: 16px;
+            }
+            .links_inside a:hover{
+                text-decoration: none;
+            }
+            h3:target{
+                color: #aa3322;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <!--     Header and menu    -->
+        <header>
+            <!-- Title-->
+            <h1 >
+                Librairie l'indépendante
+            </h1>
+
+            <!-- Menu -->
+            <div class="menu">
+                <div class="nav">
+                    <a href="acceul.html">Acceul</a><!--
+                    --><a href="presentation.html">Présentation</a><!--
+                    --><a href="coups_de_coeur.html">Nos coups de coeur</a><!--
+                    --><a href="extraits_choisis.html">Extraits choisis</a>
+                </div>
+            </div>
+
+            <!-- Image -->
+            <div clas="photo_main">
+                <img src="../img/bandeau.jpg" alt="bandeau" width="100%"/>
+            </div>
+        </header>
+
+
+        <!--    Main content    -->
+        <main>
+            <h2> Coups de cœur du mois</h2>
+            <div class="links_inside">
+                <a href="#clasiques">Les clasiques</a>
+                -
+                <a href="#lesromans">Les romans</a>
+            </div>
+
+            <h3 id="clasiques">Les classiques</h3>
+            <div class="clasiques">
+                            
+                <div id="boxhead">
+                    <div class="titre_oeuvre">Candide</div>
+                Voltaire - <time datetime="1759">1759</time>
+                <p><b>Genre : satire</b></br>
+                Lisez ou relisez ce grand classique de la littérature française.</p>
+                </div>
+
+                <div id="boxhead">
+                    <div class="titre_oeuvre">Le Horla</div>
+                Guy de Maupassant - <time datetime="1887">1887</time>
+                <p><b>Genre : fantastique</b></br>
+                Entre dédoublement de la personnalité, surnaturel et normalité.</p>
+                </div>
+
+                <div id="boxhead">
+                    <div class="titre_oeuvre">Calligrammes</div>
+                Guillaume Apollinaire - <time datetime="1918">1918</time>
+                <p><b>Genre : recueil de poèmes</b></br>
+                Recueil dédié à René Dalize, ami d'enfance d'Apollinaire, tombé à la guerre.</p>
+                </div>
+            </div>  
+            
+            <h3 id="lesromans">Les romans</h3>
+            <div class="lesromans">
+                <div id="boxhead">
+                    <div class="titre_oeuvre">Le Vieil Homme et la Mer</div>
+                Ernest Hemingway - <time datetime="1952">1952</time>
+                <p><b>Genre : récit d'aventures</b></br>
+                Le combat épique entre un vieil homme et un gigantesque marlin.</p>
+                </div>
+
+                <div id="boxhead">
+                    <div class="titre_oeuvre">Les Fourmis</div>
+                Bernard Werber - <time datetime="1991">1991</time>
+                <p><b>Genre : roman animalier</b></br>
+                Premier tome de La Trilogie des fourmis.</p>
+                </div>
+
+                <div id="boxhead">
+                    <div class="titre_oeuvre">Stupeur et Tremblements</div>
+                Amélie Nothomb - <time datetime="1999">1999</time>
+                <p><b>Genre : autobiographie</b></br>
+                Récompensé par le grand prix du roman de l'Académie française.</p>
+                </div>
+            </div>
+        </main>
+        
+
+        <!--    Footer    -->
+        <div class="footer">
+            <p class="left">© 2023 Librairie l'indépendante.</p>
+            <p class="right">26, allée du Sphinx
+                45020 Tournepioche </p>
+        </div>
+    </body>    
+
+</html>

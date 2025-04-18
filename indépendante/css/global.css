@@ -1,0 +1,76 @@
+body{
+    /* font-size: 16px by defaulth */
+    font-family: Arial, Verdana, Sans-Serif;
+    max-width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+/* Header */
+header h1{
+    font-family: Lucida Calligraphy, cursive;
+    text-align: center;
+    font-size: 34px;
+    color: #aa3322;
+    margin: 20px 0 20px 0;
+    text-shadow: 2px 2px 2px; 
+}
+.menu{
+    background-color: #aa3322;
+    margin: 0px auto;
+    text-align: center;    
+}
+
+.nav a{
+    background-color: #aa3322;
+    color: #e5dbdb;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+    border-right: 10px solid #aa3322; 
+    border-left: 10px solid #aa3322;
+}
+.nav a:hover{
+    background-color: #cccccc;
+    color: #ffffff;
+    border-left-color: #aa3322;
+    border-right-color: #aa3322;
+}
+
+
+/* Main content */
+h2{
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+}
+.button_liens a{
+    text-decoration: underline;
+    font-size: 14px;  
+    color: #aa3322;  
+}
+.button_liens:hover a{
+    text-decoration: none;
+    color: #aaaaaa;
+}
+
+
+/* Footer */
+.footer {
+    background-color: #aaaaaa;
+    color: #721717;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.footer .left {
+    text-align: left;
+}
+
+.footer .right {
+    text-align: right;
+}
