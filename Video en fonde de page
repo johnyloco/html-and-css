@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Video en fonde de page </title>
+        <link rel="icon" type="image/x-icon" href="../img/Sandbox-icon.jpg"/>
+        <!-- Mes balises meta a completer -->
+        <meta name="author" content="Aleks"/>
+        <link rel="stylesheet" type="text/css" href="../css/default.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/global.css"/>
+        <style>
+            body{background-color: black; color: #eece9e; text-align: center;}
+            video{
+                box-shadow:
+                 50px 50px 150px #eece9e,
+                 50px -50px 150px #eece9e,
+                 -50px 50px 150px #eece9e,
+                 -50px -50px 150px #eece9e;
+                }
+            figcaption{margin: 100px auto;}
+            p{margin-top: 0px; font-size: 30px; text-shadow: 5px 5px 5px black;
+                 font-family: cursive; letter-spacing: 3px;}
+        </style>
+    </head>
+
+    <body>
+        <figure>
+            <figcaption>
+                <video id="mavideo" src="../videos/Video_piston_or_1920x1080.mp4" type="video/mp4" width="600px"
+                muted autoplay loop ></video><br/>
+                <p>PISTONS OR</p>
+                
+            </figcaption>
+        </figure>
+    </body>    
+
+</html>
